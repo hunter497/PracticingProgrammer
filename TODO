@@ -1,0 +1,7 @@
+1. Set up home route, controller, and view.
+2. Install Twitter Bootstrap for formatting
+3. Set up the Katas route, view, controller, model
+4. Set up the Questions route, view, controller, model
+5. Set up basic user authentication
+6. Set up commenting on Katas and Questions
+7. Set up code snippets for Katas and Questions
