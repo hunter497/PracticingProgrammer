@@ -1,0 +1,23 @@
+OOP/.NET general position
+
+Abstract class vs. interface
+OOP concepts (encapsulation, polymorphism, inheritance, abstraction)
+What is a class/method/property/object/constructor/namespace?
+Are you familiar with TFS/Git? (leave links for further information)
+What does immutable mean, and why are strings immutable in C#?
+Why would you overload a method?
+What is a singleton?
+What websites/blogs/books to you read?
+
+Web development position
+
+What is the W3C?
+Can you write HTML by hand?
+The website you built is displaying a blank page. How would you troubleshoot this?
+What websites/blogs/books do you read?
+What are some differences between a DIV and a SPAN?
+What are meta tags and how are they used?
+How can you improve the accessibility of a website?
+What's the difference between a synchronous and asynchronous call?
+In Javascript, what is the difference between '=', '==' and '==='?
+What are some ways to reduce the load time of a web application?
