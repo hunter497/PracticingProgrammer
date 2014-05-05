@@ -7,9 +7,9 @@ using System.Web;
 
 namespace Practicing_Programmer.DAL
 {
-    public class KataContext : DbContext
+    public class KatasContext : DbContext
     {
-        public KataContext() : base("KataContext")
+        public KatasContext() : base("KataContext")
         {
             
         }

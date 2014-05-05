@@ -60,4 +60,3 @@ C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programm
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\System.Web.WebPages.Razor.xml
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.dll
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.pdb
-C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache

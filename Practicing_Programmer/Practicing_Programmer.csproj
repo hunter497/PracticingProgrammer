@@ -127,8 +127,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\KataController.cs" />
-    <Compile Include="DAL\KataContext.cs" />
+    <Compile Include="Controllers\KatasController.cs" />
+    <Compile Include="DAL\KatasContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -279,11 +279,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_html5shiv.cshtml" />
     <Content Include="Views\Shared\_Nav.cshtml" />
-    <Content Include="Views\Kata\Index.cshtml" />
-    <Content Include="Views\Kata\Details.cshtml" />
-    <Content Include="Views\Kata\Create.cshtml" />
-    <Content Include="Views\Kata\Edit.cshtml" />
-    <Content Include="Views\Kata\Delete.cshtml" />
+    <Content Include="Views\Katas\Index.cshtml" />
+    <Content Include="Views\Katas\Details.cshtml" />
+    <Content Include="Views\Katas\Create.cshtml" />
+    <Content Include="Views\Katas\Edit.cshtml" />
+    <Content Include="Views\Katas\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

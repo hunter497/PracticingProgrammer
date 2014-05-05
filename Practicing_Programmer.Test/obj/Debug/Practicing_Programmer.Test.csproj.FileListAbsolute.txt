@@ -11,3 +11,4 @@ C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programm
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer.Test\bin\Debug\nunit.framework.xml
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer.Test\obj\Debug\Practicing_Programmer.Test.dll
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer.Test\obj\Debug\Practicing_Programmer.Test.pdb
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer.Test\obj\Debug\Practicing_Programmer.Test.csprojResolveAssemblyReference.cache

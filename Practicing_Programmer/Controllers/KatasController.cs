@@ -10,9 +10,9 @@ using Practicing_Programmer.DAL;
 
 namespace Practicing_Programmer.Controllers
 {
-    public class KataController : Controller
+    public class KatasController : Controller
     {
-        private KataContext db = new KataContext();
+        private KatasContext db = new KatasContext();
 
         //
         // GET: /Kata/
