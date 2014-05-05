@@ -1,0 +1,60 @@
+﻿@model Practicing_Programmer.Models.Question
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Question</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Inquiry)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Inquiry)
+            @Html.ValidationMessageFor(model => model.Inquiry)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Category)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Category)
+            @Html.ValidationMessageFor(model => model.Category)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Answer)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Answer)
+            @Html.ValidationMessageFor(model => model.Answer)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MoreInfo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MoreInfo)
+            @Html.ValidationMessageFor(model => model.MoreInfo)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
