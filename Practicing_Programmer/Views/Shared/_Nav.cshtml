@@ -1,4 +1,14 @@
-﻿<nav class="navbar navbar-default" role="navigation">
+﻿@helper ActiveItem(string actionName, string controllerName, string areaName)
+{
+    if (ViewContext.RouteData.Values["action"].ToString() == actionName &&
+            ViewContext.RouteData.Values["controller"].ToString() == controllerName &&
+            (ViewContext.RouteData.DataTokens["area"] == null || ViewContext.RouteData.DataTokens["area"].ToString() == areaName))
+    {
+        @:active
+    }
+}
+
+<nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -13,8 +23,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
-            <li>@Html.ActionLink("Kata", "Index", "Kata")</li>
+            <li class="@ActiveItem("Index", "Home", null)">@Html.ActionLink("Home", "Index", "Home")</li>
+            <li class="@ActiveItem("Index", "Kata", null)">@Html.ActionLink("Kata", "Index", "Kata")</li>
             <li><a href="#">Interview Questions</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="search">
