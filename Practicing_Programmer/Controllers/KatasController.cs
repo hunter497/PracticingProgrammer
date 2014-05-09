@@ -17,9 +17,14 @@ namespace Practicing_Programmer.Controllers
         //
         // GET: /Kata/
 
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm = null)
         {
-            return View(db.Katas.ToList());
+            var model = from k in db.Katas
+                        .Where(k => searchTerm == null || k.Title.Contains(searchTerm))
+                        orderby k.Category
+                        select k;
+
+            return View(model);
         }
 
         //

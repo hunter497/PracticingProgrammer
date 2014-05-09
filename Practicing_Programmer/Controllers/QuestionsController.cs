@@ -17,9 +17,14 @@ namespace Practicing_Programmer.Controllers
         //
         // GET: /Question/
 
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm = null)
         {
-            return View(db.Questions.ToList());
+            var model = from q in db.Questions
+                        .Where (q => searchTerm == null || q.Inquiry.Contains(searchTerm))
+                        orderby q.Category
+                        select q;
+
+            return View(model);
         }
 
         //
