@@ -60,13 +60,15 @@ C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programm
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\System.Web.WebPages.Razor.xml
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.dll
 C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.pdb
-C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.dll
-C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.pdb
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.dll
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Practicing_Programmer.dll.config
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Practicing_Programmer.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Practicing_Programmer.pdb
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Antlr3.Runtime.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\EntityFramework.dll
+C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\EntityFramework.SqlServer.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Newtonsoft.Json.dll
@@ -82,6 +84,7 @@ C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bi
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.WebPages.Razor.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\WebGrease.dll
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\EntityFramework.xml
+C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\EntityFramework.SqlServer.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\Newtonsoft.Json.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Net.Http.Formatting.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.Http.xml
@@ -92,6 +95,5 @@ C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bi
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.WebPages.Deployment.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.WebPages.Razor.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache
-C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache
-C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.dll
-C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.xml
+C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.dll
+C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.pdb
