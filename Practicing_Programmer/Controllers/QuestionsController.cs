@@ -12,7 +12,7 @@ namespace Practicing_Programmer.Controllers
 {
     public class QuestionsController : Controller
     {
-        private QuestionsContext db = new QuestionsContext();
+        private PracticingProgrammerDb db = new PracticingProgrammerDb();
 
         //
         // GET: /Question/

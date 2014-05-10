@@ -132,16 +132,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KatasController.cs" />
     <Compile Include="Controllers\QuestionsController.cs" />
-    <Compile Include="DAL\KatasContext.cs" />
-    <Compile Include="DAL\QuestionsContext.cs" />
+    <Compile Include="DAL\PracticingProgrammerDb.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\KatasContextMigrations\Configuration.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Kata.cs" />
     <Compile Include="Models\Question.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Migrations\QuestionsContextMigrations\Configuration.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap\bootstrap.css">

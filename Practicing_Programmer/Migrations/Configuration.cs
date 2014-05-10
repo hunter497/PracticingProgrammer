@@ -1,17 +1,18 @@
-using System.Data.Entity.Migrations;
-
-namespace Practicing_Programmer.Migrations.KatasContextMigrations
+namespace Practicing_Programmer.Migrations
 {
-    internal sealed class Configuration : DbMigrationsConfiguration<Practicing_Programmer.DAL.KatasContext>
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<Practicing_Programmer.DAL.PracticingProgrammerDb>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            MigrationsDirectory = @"KatasContextMigrations";
-            ContextKey = "Practicing_Programmer.DAL.KatasContext";
         }
 
-        protected override void Seed(Practicing_Programmer.DAL.KatasContext context)
+        protected override void Seed(Practicing_Programmer.DAL.PracticingProgrammerDb context)
         {
             //  This method will be called after migrating to the latest version.
 

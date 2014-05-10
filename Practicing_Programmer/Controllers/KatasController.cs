@@ -11,7 +11,7 @@ namespace Practicing_Programmer.Controllers
 {
     public class KatasController : Controller
     {
-        private KatasContext db = new KatasContext();
+        private PracticingProgrammerDb db = new PracticingProgrammerDb();
 
         //
         // GET: /Kata/
