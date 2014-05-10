@@ -92,3 +92,6 @@ C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bi
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.WebPages.Deployment.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\bin\System.Web.WebPages.Razor.xml
 C:\Users\MJ\SkyDrive\Code Projects\PracticingProgrammer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\obj\Debug\Practicing_Programmer.csprojResolveAssemblyReference.cache
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.dll
+C:\Users\hunte_000\Desktop\Programming\Practicing_Programmer\Practicing_Programmer\bin\EntityFramework.SqlServer.xml
