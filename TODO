@@ -1,6 +1,9 @@
-1. Set up home route, controller, and view.
-2. Install Twitter Bootstrap for formatting
-3. Set up the Katas route, view, controller, model
+1. Set up home route, controller, and view. - XXXXXX
+  - Need to finish formatting, come up with a real design including color scheme
+2. Install Twitter Bootstrap for formatting - XXXXXX
+3. Set up the Katas route, view, controller, model - XXXXXX
+  - Need to finish formatting
+  - Create some real data to seed the DB
 4. Set up the Questions route, view, controller, model
 5. Set up basic user authentication
 6. Set up commenting on Katas and Questions
