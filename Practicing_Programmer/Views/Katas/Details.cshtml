@@ -20,6 +20,14 @@
         <p>@Html.DisplayFor(model => model.Content)</p>
         <p>Github: @Html.DisplayFor(model => model.GithubLink)</p>
     </div>
+    <div class="input">
+        <legend>Sample Input</legend>
+        <p>@Html.DisplayFor(model => model.TestInput)</p>
+    </div>
+    <div class="output">
+        <legend>Sample Output</legend>
+        <p>@Html.DisplayFor(model => model.TestOutput)</p>
+    </div>
     
     <p>
         @Html.ActionLink("Back to List", "Index")

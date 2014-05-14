@@ -11,7 +11,8 @@
     {
         <a class="summary" href="@Url.Action("Details", new { id=item.KataID })">
             <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-            <p>@Html.DisplayFor(modelItem => item.Summary)</p>      
+            <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+            <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>      
         </a>
     }    
 </div>

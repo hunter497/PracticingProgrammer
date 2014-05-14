@@ -13,7 +13,9 @@ namespace Practicing_Programmer.Models
         public string Difficulty { get; set; }
         public string Category { get; set; }
         public string Content { get; set; }
-        public string GithubLink { get; set; } 
+        public string GithubLink { get; set; }
+        public string TestInput { get; set; }
+        public string TestOutput { get; set; }
         
     }
 }
