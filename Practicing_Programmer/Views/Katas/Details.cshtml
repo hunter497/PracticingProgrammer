@@ -4,40 +4,26 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<div class="title">
+    <h2>@Html.DisplayFor(model => model.Title)</h2>    
+</div>
 
-<fieldset>
-    <legend>Kata</legend>
+<div>
+    <div>
+        <legend>Summary</legend>
+        <p>@Html.DisplayFor(model => model.Summary)</p>
+        <p>Category: @Html.DisplayFor(model => model.Category)</p>
+        <p>Difficulty: @Html.DisplayFor(model => model.Difficulty)</p>
+    </div>
+    <div class="problem">
+        <legend>Problem Description</legend>
+        <p>@Html.DisplayFor(model => model.Content)</p>
+        <p>Github: @Html.DisplayFor(model => model.GithubLink)</p>
+    </div>
+    
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>    
+</div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Title)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Title)
-    </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Category)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Category)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Content)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Content)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.GithubLink)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.GithubLink)
-    </div>
-</fieldset>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.KataID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
