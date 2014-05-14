@@ -9,9 +9,9 @@
 <div>
     @foreach (var item in Model)
     {
-        <div>
+        <a class="summary" href="@Url.Action("Details", new { id=item.KataID })">
             <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-            <p>@Html.DisplayFor(modelItem => item.Summary)</p>
-        </div>
+            <p>@Html.DisplayFor(modelItem => item.Summary)</p>      
+        </a>
     }    
 </div>
