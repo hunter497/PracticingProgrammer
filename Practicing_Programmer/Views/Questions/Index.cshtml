@@ -4,48 +4,19 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Questions</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Inquiry)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Category)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Answer)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.MoreInfo)
-        </th>
-        <th></th>
-    </tr>
+<div>
+    @Html.ActionLink("Create", "Create")
+</div>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Inquiry)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Answer)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.MoreInfo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.QuestionID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.QuestionID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.QuestionID })
-        </td>
-    </tr>
-}
-
-</table>
+<div>
+    @foreach (var item in Model)
+    {
+        <a class="summary" href="@Url.Action("Details", new { id=item.QuestionID })">
+            <h3>@Html.DisplayFor(modelItem => item.Inquiry)</h3>
+            <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+            <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>
+        </a>
+    }
+</div>

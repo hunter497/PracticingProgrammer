@@ -10,6 +10,7 @@ namespace Practicing_Programmer.Models
         public int QuestionID { get; set; }
         public string Inquiry { get; set; }
         public string Summary { get; set; }
+        public string Difficulty { get; set; }
         public string Category { get; set; }
         public string Answer { get; set; }
         public string MoreInfo { get; set; }

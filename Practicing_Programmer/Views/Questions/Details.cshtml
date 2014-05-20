@@ -3,41 +3,28 @@
 @{
     ViewBag.Title = "Details";
 }
-
-<h2>Details</h2>
-
-<fieldset>
-    <legend>Question</legend>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Inquiry)
+<div>
+    @Html.ActionLink("Edit", "Edit")
+    &nbsp;@Html.ActionLink("Delete", "Delete")
+</div>
+<div class="title">
+    <h2>@Html.DisplayFor(model => model.Inquiry)</h2>
+</div>
+<div>
+    <div>
+        <legend>Summary</legend>
+        <p>@Html.DisplayFor(model => model.Summary)</p>
+        <p>Category: @Html.DisplayFor(model => model.Category)</p>
+        <p>Difficulty: @Html.DisplayFor(model => model.Difficulty)</p>
     </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Inquiry)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Category)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Category)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Answer)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Answer)
+    <div class="problem">
+        <legend>Answer</legend>
+        <p>@Html.DisplayFor(model => model.Answer)</p>
+        <p>More Info: @Html.DisplayFor(model => model.MoreInfo)</p>
     </div>
 
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.MoreInfo)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.MoreInfo)
-    </div>
-</fieldset>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id=Model.QuestionID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>
+
