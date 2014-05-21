@@ -16,6 +16,6 @@ namespace Practicing_Programmer.Models
         public string GithubLink { get; set; }
         public string TestInput { get; set; }
         public string TestOutput { get; set; }
-        
+        public string Answer { get; set; }
     }
 }

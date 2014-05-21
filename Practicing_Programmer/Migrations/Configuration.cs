@@ -32,7 +32,8 @@ namespace Practicing_Programmer.Migrations
                                           "of five, print 'Buzz', and if it is a multiple of both three and five, print 'FizzBuzz.'", 
                                 Difficulty = "Beginner", 
                                 GithubLink = "",
-                                TestOutput = "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz..."}
+                                TestOutput = "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz...",
+                                Answer = "This is the answer!"}
                 );
             //
         }

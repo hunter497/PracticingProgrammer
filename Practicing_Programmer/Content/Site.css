@@ -14,3 +14,12 @@ a.summary {
 a.summary:hover {
     background-color: lightgrey;
 }
+
+.hidden {
+    display: none;
+}
+
+.break {
+    height: .05em;
+    background-color: darkgrey;
+}
