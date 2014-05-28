@@ -1,6 +1,6 @@
 ﻿/* Styles for Kata links */
 
-a.summary {
+a.kata-summary {
     display: block;
     text-decoration: none;
     color: black;
@@ -11,7 +11,7 @@ a.summary {
     border-radius: 1em;
 }
 
-a.summary:hover {
+a.kata-summary:hover {
     background-color: lightgrey;
 }
 
@@ -22,4 +22,25 @@ a.summary:hover {
 .break {
     height: .05em;
     background-color: darkgrey;
+}
+
+.answer {
+
+}
+
+/* Styles for Question links */
+
+a.question-summary {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    margin: .75em;
+    padding-left: .75em;
+    border: .1em solid black;
+    border-radius: 1em;
+}
+
+a.question-summary:hover {
+    background-color: lightgrey;
 }

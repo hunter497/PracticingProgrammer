@@ -13,7 +13,7 @@
 <div>
     @foreach (var item in Model)
     {
-        <a class="summary" href="@Url.Action("Details", new { id=item.QuestionID })">
+        <a class="question-summary" href="@Url.Action("Details", new { id=item.QuestionID })">
             <h3>@Html.DisplayFor(modelItem => item.Inquiry)</h3>
             <p>@Html.DisplayFor(modelItem => item.Summary)</p>
             <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>

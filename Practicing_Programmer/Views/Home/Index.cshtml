@@ -3,9 +3,25 @@
     ViewBag.Title = "title";
 }
 
-<h2>The Practicing Programmer</h2>
-<p>
-    Home for The Practicing Programmer. Temporary Home page.
-</p>
+<legend>The Practicing Programmer</legend>
+
+<div class="top-kata">
+    <h3>Most Recent Kata</h3>
+    <a class="kata-summary" href="@Url.Action("Details", new { id=item.KataID })">
+        <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+        <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+        <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>
+    </a>
+</div>
+<div class="break"></div>
+<div class="top-question">
+    <h3>Most Recent Interview Question</h3>
+    <a class="question-summary" href="@Url.Action("Details", new { id=item.KataID })">
+        <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+        <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+        <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>
+    </a>
+</div>
+
 
 

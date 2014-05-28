@@ -36,14 +36,13 @@
         <div class="break"></div>
         <p>@Html.DisplayFor(model => model.TestOutput)</p>
     </div>
-    <button id="click_to_slide">Show Answer</button>
-    <div id="slider" class="hidden">
+    <button id="hideshow" class="answer" value="hide/show">Answer</button>
+    <div id="slider" style="display: none">
         <h3>Answer</h3>
         <div class="break"></div>
         <p>@Html.DisplayFor(model => model.Answer)</p>
     </div>
     
-    <div class="break"></div>
     <p>
         @Html.ActionLink("Back to List", "Index")
     </p>    
