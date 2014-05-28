@@ -1,0 +1,16 @@
+﻿/* Styles for Kata links */
+
+a.kata_summary {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #1e3dd3;
+    margin: .75em;
+    padding-left: .75em;
+    border: .1em solid black;
+    border-radius: 1em;
+}
+
+a.kata_summary:hover {
+    background-color: #1a31bb;
+}

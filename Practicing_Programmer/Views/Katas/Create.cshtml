@@ -22,6 +22,22 @@
         </div>
 
         <div class="editor-label">
+            @Html.LabelFor(model => model.Summary)
+        </div>
+        <div class="editor-field">
+             @Html.EditorFor(model => model.Summary)
+             @Html.ValidationMessageFor(model => model.Summary)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Difficulty)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Difficulty)
+            @Html.ValidationMessageFor(model => model.Difficulty)
+        </div>
+
+        <div class="editor-label">
             @Html.LabelFor(model => model.Category)
         </div>
         <div class="editor-field">

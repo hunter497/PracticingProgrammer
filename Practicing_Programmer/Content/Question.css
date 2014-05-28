@@ -1,0 +1,16 @@
+﻿/* Styles for Question links */
+
+a.question_summary {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #056c1d;
+    margin: .75em;
+    padding-left: .75em;
+    border: .1em solid black;
+    border-radius: 1em;
+}
+
+a.question_summary:hover {
+    background-color: #088716;
+}

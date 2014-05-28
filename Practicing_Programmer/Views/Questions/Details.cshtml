@@ -3,19 +3,23 @@
 @{
     ViewBag.Title = "Details";
 }
+
 <div>
     @Html.ActionLink("Edit", "Edit")
     &nbsp;@Html.ActionLink("Delete", "Delete")
 </div>
+
 <div class="title">
     <h2>@Html.DisplayFor(model => model.Inquiry)</h2>
 </div>
 <div>
     <div>
-        <legend>Summary</legend>
-        <p>@Html.DisplayFor(model => model.Summary)</p>
-        <p>Category: @Html.DisplayFor(model => model.Category)</p>
-        <p>Difficulty: @Html.DisplayFor(model => model.Difficulty)</p>
+        <h3>Summary</h3>
+        <div class="question_summary">
+            <p>@Html.DisplayFor(model => model.Summary)</p>
+            <p>Category: @Html.DisplayFor(model => model.Category)</p>
+            <p>Difficulty: @Html.DisplayFor(model => model.Difficulty)</p>
+        </div>
     </div>
     <div class="problem">
         <legend>Answer</legend>
