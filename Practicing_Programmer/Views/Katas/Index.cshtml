@@ -1,22 +1,25 @@
-﻿@model IEnumerable<Practicing_Programmer.Models.Kata>
+﻿<div class="background">
 
-@{
-    ViewBag.Title = "Index";
-}
+    @model IEnumerable<Practicing_Programmer.Models.Kata>
 
-<h2>Katas</h2>
+    @{
+        ViewBag.Title = "Index";
+    }
 
-<div>
-    @Html.ActionLink("Create","Create")
-</div>
+    <h2>Katas</h2>
 
-<div>
-    @foreach (var item in Model)
-    {
-        <a class="summary" href="@Url.Action("Details", new { id=item.KataID })">
-            <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-            <p>@Html.DisplayFor(modelItem => item.Summary)</p>
-            <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>      
-        </a>
-    }    
+    <div>
+        @Html.ActionLink("Create", "Create", null, new { @class = "kata_link" })
+    </div>
+
+    <div>
+        @foreach (var item in Model)
+        {
+            <a class="kata_summary" href="@Url.Action("Details", new { id=item.KataID })">
+                <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+                <p>@Html.DisplayFor(modelItem => item.Summary)</p>
+                <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>
+            </a>
+        }
+    </div>
 </div>

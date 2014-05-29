@@ -3,8 +3,8 @@
 a.kata_summary {
     display: block;
     text-decoration: none;
-    color: black;
-    background-color: #1e3dd3;
+    color: white;
+    background-color: rgba(13, 44, 167, 0.80);
     margin: .75em;
     padding-left: .75em;
     border: .1em solid black;
@@ -12,5 +12,13 @@ a.kata_summary {
 }
 
 a.kata_summary:hover {
-    background-color: #1a31bb;
+    background-color: rgba(8, 35, 155, 0.80);
+}
+
+.kata_link:link{ color: rgba(13, 44, 167, 0.80); text-decoration: underline; }
+.kata_link:active{ color: rgba(8, 35, 155, 0.80); text-decoration: underline; }
+.kata_link:hover{ color: rgba(8, 35, 155, 0.80); text-decoration: underline; }
+
+.background {
+    background-color: #383434;
 }

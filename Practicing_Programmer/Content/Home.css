@@ -1,6 +1,6 @@
 ﻿/* Styles for Kata links */
 
-a.summary {
+/*a.summary {
     display: block;
     text-decoration: none;
     color: black;
@@ -13,7 +13,7 @@ a.summary {
 
 a.summary:hover {
     background-color: lightgrey;
-}
+}*/
 
 .hidden {
     display: none;
