@@ -6,7 +6,7 @@ a.kata_summary {
     color: white;
     background-color: rgba(13, 44, 167, 0.80);
     margin: .75em;
-    padding-left: .75em;
+    padding: 0em .75em .75em .75em;
     border: .1em solid black;
     border-radius: 1em;
 }
@@ -15,9 +15,20 @@ a.kata_summary:hover {
     background-color: rgba(8, 35, 155, 0.80);
 }
 
-.kata_link:link{ color: rgba(13, 44, 167, 0.80); text-decoration: underline; }
-.kata_link:active{ color: rgba(8, 35, 155, 0.80); text-decoration: underline; }
-.kata_link:hover{ color: rgba(8, 35, 155, 0.80); text-decoration: underline; }
+a.kata_link { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(13, 44, 167, 0.80);
+    margin: .75em 76em 0em .75em;
+    padding: .5em 0em .5em .75em;
+    border: .1em solid black;
+    border-radius: 1em;
+}
+
+a.kata_link:hover { 
+    background-color: rgba(8, 35, 155, 0.80);  
+}
 
 .background {
     background-color: #383434;

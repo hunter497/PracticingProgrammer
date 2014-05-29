@@ -3,7 +3,7 @@
 a.question_summary {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: #056c1d;
     margin: .75em;
     padding-left: .75em;
@@ -12,5 +12,20 @@ a.question_summary {
 }
 
 a.question_summary:hover {
-    background-color: #088716;
+    background-color: #036313;
+}
+
+a.question_link { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #056c1d;
+    margin: .75em 76em 0em .75em;
+    padding: .5em 0em .5em .75em;
+    border: .1em solid black;
+    border-radius: 1em;
+}
+
+a.question_link:hover { 
+    background-color: #036313;  
 }

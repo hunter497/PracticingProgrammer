@@ -23,3 +23,13 @@ a.summary:hover {
     height: .05em;
     background-color: darkgrey;
 }
+
+.title {
+    color: white;
+    padding-left: .45em;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}

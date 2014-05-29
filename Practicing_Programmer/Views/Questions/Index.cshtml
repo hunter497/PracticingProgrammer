@@ -4,16 +4,16 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Questions</h2>
+<h2 class="title">Questions</h2>
 
 <div>
-    @Html.ActionLink("Create", "Create")
+    @Html.ActionLink("Create", "Create", null, new { @class = "question_link" })
 </div>
 
 <div>
     @foreach (var item in Model)
     {
-        <a class="summary" href="@Url.Action("Details", new { id=item.QuestionID })">
+        <a class="question_summary" href="@Url.Action("Details", new { id=item.QuestionID })">
             <h3>@Html.DisplayFor(modelItem => item.Inquiry)</h3>
             <p>@Html.DisplayFor(modelItem => item.Summary)</p>
             <p>Difficulty: @Html.DisplayFor(modelItem => item.Difficulty)</p>
